@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "unpushslab",
+  "version": "${version}",
+
+  "name": "Unpushable Slab",
+  "description": "this mod adds an unpushable slab (obsidian only for now)",
+  "authors": [
+    "Ayumi-Chizuru189"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ayumi-chizuru189",
+    "sources": "https://github.com/ayumi-chizuru189/UnpushSlab"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ayumichizuru.unpushslab.UnpushSlab"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
